@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    /* background-color: #009578; */
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    height: 40px;
+    width: 30em;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(237, 234, 234);
+    padding: 10px;
+}
+
+input:focus {
+    outline: none;
+    background-color: rgb(211, 211, 211);
+}
+
+#signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffffff;
+    border: none;
+    height: 30em;
+    width: 28em;
+    margin-top: 7em;
+    border-radius: 15px;
+}
+
+#signUpForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: inherit;
+    min-height: inherit;
+}
+
+#signupText {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#loginLink {
+    color: #fbcb29;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+#loginLink:hover {
+    text-decoration: underline;
+}
+
+#male,
+#female {
+    width: 15px;
+}
+
+#signupBtn {
+    height: 35px;
+    width: 20em;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 4px;
+    color: #ffffff;
+    background-color: #fbcb29;
+}
+
+#signupBtn:hover {
+    background-color: #fcd03e;
+    cursor: pointer;
+}
+
+#signupBtn:active {
+    background-color: #ffc916;
+    cursor: pointer;
+}
+
+#femaleLabel,
+#maleLabel {
+    padding: 10px;
+}
+
+.error-msg {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    font-size: 13px;
+    /* margin: 0; */
+    position: absolute;
+    font-weight: bold;
+    color: red;
+}
+
+#fnameErr {
+    transform: translateY(-115px);
+}
+
+#userErr {
+    transform: translateY(-55px);
+}
+
+#phoneErr {
+    transform: translateY(2px);
+}
+
+#passErr {
+    transform: translateY(59px);
+}
+
+#cpassErr {
+    transform: translateY(116px);
+}
+
+.err {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff6262;
+    position: absolute;
+    margin-top: 10px;
+    width: 16em;
+    height: 7em;
+    padding: 10px 20px;
+    color: #ffffff;
+    transform: translate(38em, -8em);
+    transition: transform 0.25s ease;
+}
+
+#fnameError {
+    height: 2em;
+    border-radius: 10px;
+}
+
+#usernameError {
+    height: 2em;
+    border-radius: 10px;
+}
+
+#phoneError {
+    height: 2em;
+    border-radius: 10px;
+}
+
+#passError {
+    height: 6em;
+    border-radius: 15px;
+}
+
+#cpassError {
+    height: 2em;
+    border-radius: 10px
+}
+
+/* .signup__heading {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+} */
+
+.logo {
+    width: 80px;
+}

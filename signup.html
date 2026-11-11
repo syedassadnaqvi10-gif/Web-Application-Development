@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/signup.css">
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <div id="signup">
+        <!-- <div class="signup__heading"> -->
+        <img src="./imgs/black_logo.webp" alt="" class="logo">
+        <h1 id="signupText">Sign Up</h1>
+        <!-- </div> -->
+        <form action="/signup" id="signUpForm" method="POST" enctype="application/x-www-form-urlencoded">
+            <input type="text" name="fname" placeholder="Enter your Full Name" id="fname"><br>
+            <input type="text" name="username" placeholder="Enter your Username" id="username"><br>
+            <input type="number" name="phone" placeholder="Enter your Phone Number" id="phone"><br>
+            <input type="password" name="password" placeholder="Enter Password" id="password"><br>
+            <input type="password" name="conPass" placeholder="Confirm Password" id="conPass"><br>
+            <input type="submit" id="signupBtn" value="Sign Up">
+        </form>
+        <p id="login">Already have an account? <a href="login.html" id="loginLink">login</a></p>
+    </div>
+
+
+    <script type="module" src="/js/signup.js"></script>
+</body>
+
+</html>
